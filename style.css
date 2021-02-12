@@ -200,6 +200,7 @@ h3 {
     width: 40px;
     margin-right: 10px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .footer_icons {
     display: flex;
