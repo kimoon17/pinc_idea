@@ -86,7 +86,7 @@ h3 {
     background-color: #BE93C5;
     color: #fff;
     height: 1400px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 .information_wrapper > div:first-child > h2 {
     margin-bottom: 50px;
@@ -214,6 +214,10 @@ h3 {
     align-items: center;
 }
 
+/*
+    Desktop version from 850px to 1280px
+*/
+
 @media screen and (min-width: 850px) {
     .information_wrapper {
         height: 1000px;
@@ -259,6 +263,7 @@ h3 {
         width: 500px;
         position: relative;
         top: 20px;
+        cursor: pointer;
     }
     .information_wrapper > div:last-child > div:last-child > p {
         margin-right: 150px;
