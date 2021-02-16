@@ -56,6 +56,10 @@ h3 {
 
 /*mobile*/
 
+.home_navbar {
+    display: none;
+}
+
 .home_wrapper {
     display: flex;
     flex-direction: column;
@@ -66,16 +70,43 @@ h3 {
     background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.home_wrapper > div:nth-child(2) > img {
+
+.home_wrapper > div:first-child > ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+}
+
+.home_wrapper > div:first-child > ul > li {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s all ease-in;
+}
+
+.home_wrapper > div:first-child > ul > li:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.home_wrapper > div:first-child > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home_wrapper > div:nth-child(3) > img {
     width: 400px;
     height: 250px;
     border-radius: 15px;
     margin-bottom: 50px;
 }
-.home_wrapper > div:first-child > h1 {
+.home_wrapper > div:nth-child(2) > h1 {
     margin-bottom: 70px;
 }
-.home_wrapper > div:nth-child(3) {
+.home_wrapper > div:nth-child(4) {
     margin-bottom: 50px;
 }
 .information_wrapper {
@@ -237,6 +268,9 @@ h3 {
 */
 
 @media screen and (min-width: 1280px) {
+    .home_navbar {
+        display: flex;
+    }
     .home_wrapper > div:first-child > h1 {
         margin-bottom: 70px;
         font-size: 75px;
