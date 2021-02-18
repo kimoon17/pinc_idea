@@ -134,4 +134,7 @@ h3 {
         width: 800px;
         padding-bottom: 50px;
     }
+    .home_wrapper {
+        margin-bottom: 50px;
+    }
 }

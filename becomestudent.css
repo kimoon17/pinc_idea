@@ -59,7 +59,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 200px;
 }
 
 .home_wrapper > div > ul {
@@ -114,7 +114,7 @@ h3 {
     margin-bottom: 70px;
 }
 .main_wrapper > h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .main_wrapper > div > p {
     margin-bottom: 2px;
@@ -135,7 +135,7 @@ h3 {
     padding-bottom: 15px;
     border-bottom: 3px solid #4e80cf;
 }
-.image_gallery_wrapper > div:not(:first-child) {
+.image_gallery_wrapper > div {
     padding-top: 35px;
 }
 .image_gallery_wrapper > div > img {
@@ -155,8 +155,9 @@ h3 {
     .main_wrapper {
         margin-left: 200px;
         margin-right: 200px;
-        height: 500px;
+        height: 210px;
         margin-bottom: 80px;
+        margin-top: -40px;
     }
     .image_gallery_wrapper {
         display: flex;
@@ -165,5 +166,8 @@ h3 {
         margin-left: 200px;
         margin-right: 200px;
         margin-bottom: 70px;
+    }
+    .home_wrapper {
+        height: 300px;
     }
 }
